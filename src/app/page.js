@@ -11,7 +11,7 @@ export default function Home() {
       <section className="text-center my-16" id="about">
         <SectionHeaders 
           subHeader={'Our Story'}
-          mainHeader={'About us'}
+          mainHeader={'About Us'}
         />
       </section>
       <About />

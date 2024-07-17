@@ -23,7 +23,7 @@ export default function MenuPage() {
                     <div className="text-center" >
                         <SectionHeaders mainHeader={c.name} />
                     </div>
-                    <div className="scroll-mt-60 grid sm:grid-cols-4 gap-4 mt-6 mb-12" id={c.name}>
+                    <div className="scroll-mt-60 grid sm:grid-cols-4 gap-4 pt-4 mt-6 mb-12" id={c.name}>
                         {menuItems.filter(item => item.category === c._id).map(item => (
                             <MenuItem key={item._id} {...item} />
                         ))}

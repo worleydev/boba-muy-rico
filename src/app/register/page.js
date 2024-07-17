@@ -51,14 +51,14 @@ export default function RegisterPage() {
                         onChange={ev => setEmail(ev.target.value)} />
                 <input type='password' placeholder='password' value={password} disabled={creatingUser} onChange={ev => setPassword(ev.target.value)} />
                 <button type='submit' disabled={creatingUser}>Register</button>
-                <div className="my-4 text-center text-gray-500 ">or login with social</div>
+                {/* <div className="my-4 text-center text-gray-500 ">or login with social</div>
                 <button className="flex gap-4 justify-center">
                     <Image src={"/googleLogo.png"} alt={"google icon"} width={"24"} height={"24"} />
                     Login with Google</button>
                 <div className="text-center my-4 text-gray-500 border-t pt-4">
                     Existing account?{' '} 
                     <Link className="underline" href={'/login'}>Login here &raquo;</Link>
-                </div>
+                </div> */}
             </form>
         </section>  
     )
