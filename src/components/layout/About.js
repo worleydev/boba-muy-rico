@@ -28,7 +28,7 @@ export default function About() {
                         </div>
                         <div class="max-w-lg">
                             <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Quality Ingredients</h2>
-                            <p class="mt-4 text-gray-600 text-lg">Our drinks are made from the finest ingredients, making use of only high-quality tea leaves. The leaves and ingredients are tested to ensure the best possible quality across our lineup of beverages. Locally sourced when possible, free-trade when not; we are proud of our ingredients, and you'll be able to taste the difference.</p>
+                            <p class="mt-4 text-gray-600 text-lg">Our drinks are made from the finest ingredients, making use of only high-quality tea leaves. The leaves and ingredients are tested to ensure the best possible quality across our lineup of beverages. Locally sourced when possible, free-trade when not; we are proud of our ingredients, and you will be able to taste the difference.</p>
                             <div class="mt-8">
                             <span class="text-primary font-medium">Free trade products, guilt free mind</span>
                             </div>
