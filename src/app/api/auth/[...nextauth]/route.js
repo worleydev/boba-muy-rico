@@ -3,7 +3,7 @@ import * as mongoose from "mongoose"
 import {User} from "@/models/User"
 import NextAuth, { getServerSession } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
-import { UserInfo } from "@/models/userInfo"
+import { UserInfo } from "@/models/UserInfo"
 
 export const authOptions = {
   secret: process.env.SECRET,
