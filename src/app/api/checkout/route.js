@@ -63,13 +63,13 @@ export async function POST(req) {
             metadata:{orderId:orderDoc._id.toString()},
         },
         shipping_options: [
-            {   
-                shipping_rate_data: {
-                    display_name: 'Delivery fee',
-                    type: 'fixed_amount',
-                    fixed_amount: {amount: 500, currency: 'USD'},
-                },
-            },
+            // {   
+            //     shipping_rate_data: {
+            //         display_name: 'Delivery fee',
+            //         type: 'fixed_amount',
+            //         fixed_amount: {amount: 500, currency: 'USD'},
+            //     },
+            // },
         ],
     });
 

@@ -2,6 +2,8 @@ import SectionHeaders from '@/components/layout/SectionHeaders'
 import Hero from '../components/layout/Hero'
 import HomeMenu from "../components/layout/HomeMenu"
 import About from "@/components/layout/About"
+import LocationHours from "@/components/layout/LocationHours"
+import Faq from "@/components/layout/Faq"
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
         />
       </section>
       <About />
+      <Faq />
+      <LocationHours />
       {/* <section className="text-center my-8" id="contact">
         <SectionHeaders 
           subHeader={'Don\'t hesitate'}

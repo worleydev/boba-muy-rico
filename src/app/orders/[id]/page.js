@@ -42,7 +42,7 @@ export default function OrderPage() {
                     <SectionHeaders mainHeader="Your order"/>
                     <div className="mt-4 mb-8">
                         <p>Thanks for your order</p>
-                        <p>We will call you when your order is on the way.</p>
+                        <p>Order will be ready for pickup within 30 minutes.</p>
                     </div>
                 </div>
                 {loadingOrder && (

@@ -20,9 +20,33 @@ export default function RootLayout({ children }) {
             <Toaster />
             <Header />
             {children}
-            <footer className="border-t p-8 text-center text-gray-500 mt-16">
-              &copy; 2023 All rights reserved
-            </footer>
+            <footer className="mt-16">
+  {/* Top thin gray line, shorter than full width */}
+  <div className="mx-auto max-w-4xl border-t border-gray-300"></div>
+
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between">
+    
+    {/* Left: Logo / Name */}
+    <div className="text-gray-900 font-bold text-lg mb-4 md:mb-0">
+      Boba Muy Rico
+    </div>
+
+    {/* Center: Navigation Links */}
+    <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-gray-700 mb-4 md:mb-0">
+      <a href="/menu" className="hover:text-gray-900 transition">
+        Order Online
+      </a>
+      <a href="/about" className="hover:text-gray-900 transition">
+        About Us
+      </a>
+    </div>
+
+    {/* Right: Copyright */}
+    <div className="text-gray-500 text-sm">
+      &copy; bobamuyrico 2025
+    </div>
+  </div>
+</footer>
           </AppProvider>  
         </main>
       </body>

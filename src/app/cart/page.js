@@ -84,6 +84,16 @@ export default function CartPage() {
 
   return (
     <section className="mt-8">
+      <div className="flex justify-start mb-4">
+      <div className="flex flex-col text-sm font-medium text-gray-700 space-y-1">
+  <div>
+    Pickup from 928 Fort Stockton Dr, San Diego, in 30 minutes.
+  </div>
+  <div>
+    Orders may not be placed after 8:00 pm.
+  </div>
+</div>
+    </div>
       <div className="text-center">
         <SectionHeaders mainHeader="Cart" />
       </div>
